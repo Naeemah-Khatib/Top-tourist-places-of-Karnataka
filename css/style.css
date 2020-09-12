@@ -1,0 +1,120 @@
+body {
+	
+    background-color: #61122f
+}
+
+.navbar {
+	background-color: #f6b319;
+	padding-right: -30px;
+	padding-left: -30px;
+	border: 2px solid black;
+}
+
+ h1 {
+ 	text-align: right;
+ 	font-size: 250%;
+ 	margin-top: 30px;
+ 	padding-left: 90px;
+ 	color: black;
+ }
+
+
+ #bangalore-tile {
+ 	background: url('../images/bangalore-img.jpg') no-repeat;
+ 	
+ }
+
+#bangalore-tile, #coorg-tile, #mysore-tile, #Shivanasamudra-tile,
+ 	 #bandipur-tile, #gokarna-tile ,#sakleshpur-tile, #dandeli-tile,
+ 	 #pattadakal-tile, #golgumbaz-tile, #jog-tile {
+ 		width:300px;
+ 		height:250px;
+ 		background-position: center left;
+ 		margin:auto;
+ 		margin-top: 20px;
+ 	}
+ 
+
+
+
+ @media(min-width:770px) {
+ 	.jumbotron {
+	 	align-items: center;
+	 	padding: 0;
+	 	padding-left: 0px;
+	 	background-color: black;
+    }
+
+ 	
+ }
+
+
+#coorg-tile {
+ 	background: url('../images/coorg-img.jpg') no-repeat;
+ 	background-position: center;
+ }
+
+ #mysore-tile {
+ 	background: url('../images/mysore-img.jpg') no-repeat;
+ 	background-position: center;
+ }
+
+ #Shivanasamudra-tile {
+ 	background: url('../images/Shivanasamudra-img.jpg') no-repeat;
+ 	background-position: center;
+ }
+
+ #bandipur-tile {
+ 	background: url('../images/bandipur-img.jpg') no-repeat;
+ 	background-position: center;
+ }
+
+ #gokarna-tile {
+ 	background: url('../images/gokarna-img.jpg') no-repeat;
+ 	background-position: center;
+ }
+
+ #sakleshpur-tile {
+ 	background: url('../images/sakleshpur-img.jpg') no-repeat;
+ 	background-position: center;
+ }
+
+ #golgumbaz-tile {
+ 	background: url('../images/golgumbaz-img.jpg') no-repeat;
+ 	background-position: center;
+ }
+
+ #dandeli-tile {
+ 	background: url('../images/dandeli-img.jpg') no-repeat;
+ 	background-position: center;
+ }
+
+ #pattadakal-tile {
+ 	background: url('../images/pattadakal-img.jpg') no-repeat;
+ 	background-position: center;
+ }
+
+ #jog-tile {
+ 	background: url('../images/jog-img.jpg') no-repeat;
+ 	background-position: center;
+ }
+
+
+ #bangalore-tile span, #coorg-tile span, #mysore-tile span, #Shivanasamudra-tile span,
+ 	 #bandipur-tile span, #gokarna-tile span, #sakleshpur-tile span,
+ 	 #dandeli-tile span, #pattadakal-tile span, #golgumbaz-tile span, 
+ 	 #jog-tile span{
+ 	position: absolute;
+	bottom: 0;
+	text-align: center;
+	width: 300px;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+ }
+
+ #bangalore-tile:hover {
+ 	box-shadow:0 1px 5px 1px #cccccc;
+ }
