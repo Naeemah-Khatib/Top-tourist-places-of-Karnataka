@@ -5,17 +5,9 @@ body {
 
 
 
- 
-
-
- #bangalore-tile {
- 	background: url('../images/bangalore-img.jpg') no-repeat;
- 	
- }
-
 #bangalore-tile, #coorg-tile, #mysore-tile, #shivanasamudra-tile,
  	 #bandipur-tile, #gokarna-tile ,#sakleshpur-tile, #dandeli-tile,
- 	 #pattadakal-tile, #golgumbaz-tile, #jog-tile, #srirangapatna-tile {
+ 	 #hampi-tile, #golgumbaz-tile, #jog-tile, #srirangapatna-tile {
  		width:300px;
  		height:250px;
  		background-position: center left;
@@ -26,7 +18,7 @@ body {
  
   #bangalore-tile span, #coorg-tile span, #mysore-tile span, #shivanasamudra-tile span,
  	 #bandipur-tile span, #gokarna-tile span, #sakleshpur-tile span,
- 	 #dandeli-tile span, #pattadakal-tile span, #golgumbaz-tile span, 
+ 	 #dandeli-tile span, #hampi-tile span, #golgumbaz-tile span, 
  	 #jog-tile span, #srirangapatna-tile span{
  	position: absolute;
 	bottom: 0;
@@ -50,10 +42,10 @@ body {
     }
 
     .navbar {
-	
+	border:2px solid black;
+	background-color: #669999;
 	padding-right: -30px;
 	padding-left: -30px;
-	background-image: url("paper.gif")
 	border-radius: 0;
    }
 
@@ -73,7 +65,6 @@ body {
 @media (min-width: 992px) and (max-width: 1199px){
 	.container .jumbotron {
 	 	align-items: center;
-	 	padding: 0;
 	 	padding: 0px;
 	 	background-color: #669999;
 	 	border:2px solid black;
@@ -81,7 +72,6 @@ body {
 
     .navbar {
 	background-color: #669999;
-	
 	height: 100px;
 	border-radius: 0;
    }
@@ -98,7 +88,6 @@ body {
 @media (min-width: 767px) and (max-width: 991px){
 	.container .jumbotron {
 	 	align-items: center;
-	 	padding: 0;
 	 	padding: 0px;
 	 	background-color: #669999;
 	 	border:2px solid black;
@@ -106,7 +95,6 @@ body {
 
     .navbar {
 	background-color: #669999;
-	
 	height: 100px;
 	border-radius: 0;
    }
@@ -118,9 +106,17 @@ body {
     font-family: 'Cinzel Decorative';
     padding-left: 35px;
    }
+   .top-para-map {
+   	padding-bottom: 30px;
+   }
+
 }
 
-@media (max-width: 760px){
+
+
+
+
+@media (max-width: 767px){
 	.container .jumbotron {
 	 	align-items: center;
 	 	padding: 0;
@@ -144,9 +140,16 @@ body {
     padding: 0;
     margin-top: 10px;
    }
+   
 }
 
 @media (max-width: 479px){
+	.container .jumbotron {
+	 	align-items: center;
+	 	padding: 0px;
+	 	background-color: #669999;
+	 	border:2px solid black;
+    }
 	.navbar{
 		height: 80px;
 	}
@@ -156,26 +159,26 @@ body {
 	}
 	#bangalore-tile, #coorg-tile, #mysore-tile, #shivanasamudra-tile,
  	 #bandipur-tile, #gokarna-tile ,#sakleshpur-tile, #dandeli-tile,
- 	 #pattadakal-tile, #golgumbaz-tile, #jog-tile, #srirangapatna-tile {
+ 	 #hampi-tile, #golgumbaz-tile, #jog-tile, #srirangapatna-tile {
  		width:250px;
  		height:200px;
  	}
  	#bangalore-tile span, #coorg-tile span, #mysore-tile span, #shivanasamudra-tile span,
  	 #bandipur-tile span, #gokarna-tile span, #sakleshpur-tile span,
- 	 #dandeli-tile span, #pattadakal-tile span, #golgumbaz-tile span, 
+ 	 #dandeli-tile span, #hampi-tile span, #golgumbaz-tile span, 
  	 #jog-tile span, #srirangapatna-tile span{
  	 	width: 250px;
  	 }
 }
 
 
-
-
-
+ #bangalore-tile {
+ 	background: url('../images/bangalore-img.jpg') no-repeat;
+ 	
+ }
 
 #coorg-tile {
  	background: url('../images/coorg-img.jpg') no-repeat;
- 	background-position: center;
  }
 
  #mysore-tile {
@@ -185,17 +188,14 @@ body {
 
  #shivanasamudra-tile {
  	background: url('../images/Shivanasamudra-img.jpg') no-repeat;
- 	background-position: center;
  }
 
  #bandipur-tile {
  	background: url('../images/bandipur-img.jpg') no-repeat;
- 	background-position: center;
  }
 
  #gokarna-tile {
  	background: url('../images/gokarna-img.jpg') no-repeat;
- 	background-position: center;
  }
 
  #sakleshpur-tile {
@@ -205,34 +205,29 @@ body {
 
  #golgumbaz-tile {
  	background: url('../images/golgumbaz-img.jpg') no-repeat;
- 	background-position: center;
  }
 
  #dandeli-tile {
  	background: url('../images/dandeli-img.jpg') no-repeat;
- 	background-position: center;
  }
 
- #pattadakal-tile {
- 	background: url('../images/pattadakal-img.jpg') no-repeat;
- 	background-position: center;
+ #hampi-tile {
+ 	background: url('../images/hampi-img.jpg') no-repeat;
  }
 
  #jog-tile {
  	background: url('../images/jog-img.jpg') no-repeat;
- 	background-position: center;
  }
 
  #srirangapatna-tile  {
  	background: url('../images/srirangapatna.jpg') no-repeat;
- 	background-position: center;
  }
 
 
 
  #bangalore-tile:hover, #coorg-tile:hover, #mysore-tile:hover, 
   #shivanasamudra-tile:hover, #bandipur-tile:hover, #gokarna-tile:hover,
-  #sakleshpur-tile:hover, #dandeli-tile:hover, #pattadakal-tile:hover,
+  #sakleshpur-tile:hover, #dandeli-tile:hover, #hampi-tile:hover,
   #golgumbaz-tile:hover, #jog-tile:hover, #srirangapatna-tile:hover {
  	box-shadow:0 1px 5px 1px black;
  }
