@@ -15,7 +15,7 @@ body {
 
 #bangalore-tile, #coorg-tile, #mysore-tile, #shivanasamudra-tile,
  	 #bandipur-tile, #gokarna-tile ,#sakleshpur-tile, #dandeli-tile,
- 	 #pattadakal-tile, #golgumbaz-tile, #jog-tile {
+ 	 #pattadakal-tile, #golgumbaz-tile, #jog-tile, #srirangapatna-tile {
  		width:300px;
  		height:250px;
  		background-position: center left;
@@ -27,7 +27,7 @@ body {
   #bangalore-tile span, #coorg-tile span, #mysore-tile span, #shivanasamudra-tile span,
  	 #bandipur-tile span, #gokarna-tile span, #sakleshpur-tile span,
  	 #dandeli-tile span, #pattadakal-tile span, #golgumbaz-tile span, 
- 	 #jog-tile span{
+ 	 #jog-tile span, #srirangapatna-tile span{
  	position: absolute;
 	bottom: 0;
 	text-align: center;
@@ -156,14 +156,14 @@ body {
 	}
 	#bangalore-tile, #coorg-tile, #mysore-tile, #shivanasamudra-tile,
  	 #bandipur-tile, #gokarna-tile ,#sakleshpur-tile, #dandeli-tile,
- 	 #pattadakal-tile, #golgumbaz-tile, #jog-tile {
+ 	 #pattadakal-tile, #golgumbaz-tile, #jog-tile, #srirangapatna-tile {
  		width:250px;
  		height:200px;
  	}
  	#bangalore-tile span, #coorg-tile span, #mysore-tile span, #shivanasamudra-tile span,
  	 #bandipur-tile span, #gokarna-tile span, #sakleshpur-tile span,
  	 #dandeli-tile span, #pattadakal-tile span, #golgumbaz-tile span, 
- 	 #jog-tile span{
+ 	 #jog-tile span, #srirangapatna-tile span{
  	 	width: 250px;
  	 }
 }
@@ -223,12 +223,42 @@ body {
  	background-position: center;
  }
 
+ #srirangapatna-tile  {
+ 	background: url('../images/srirangapatna.jpg') no-repeat;
+ 	background-position: center;
+ }
 
 
 
  #bangalore-tile:hover, #coorg-tile:hover, #mysore-tile:hover, 
   #shivanasamudra-tile:hover, #bandipur-tile:hover, #gokarna-tile:hover,
   #sakleshpur-tile:hover, #dandeli-tile:hover, #pattadakal-tile:hover,
-  #golgumbaz-tile:hover, #jog-tile:hover  {
+  #golgumbaz-tile:hover, #jog-tile:hover, #srirangapatna-tile:hover {
  	box-shadow:0 1px 5px 1px black;
  }
+
+ .heading {
+ 	font-size: 3em;
+ 	padding:30px;
+ 	padding-bottom: 10px;
+ 	color: #000066 ;
+ }
+
+ .top-para-map {
+ 	float:right;
+ 	overflow: hidden;
+ }
+
+ div.container {
+ 	padding:0;
+ }
+
+ .map-tile {
+ 	border: 2px solid black;
+ }
+
+ #info {
+ 	font-size: 1.5em;
+ }
+
+ 
