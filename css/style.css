@@ -158,11 +158,18 @@ body {
    }
 }
 
+@media(min-width: 695px) and (max-width: 703px) {
+	h1 {
+		padding: 0px;
+	}
+}
+
 @media(min-width: 695px) and (max-width: 765px){
 	h1 {
 		padding-left: 9px;
 	}
 }
+
 
 @media(max-width: 694px) {
 	h1 {
