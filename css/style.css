@@ -3,6 +3,12 @@ body {
     font-family: 'Courgette';
 }
 
+.icons {
+	padding:20px;
+	padding-bottom: 0;
+	font-size: 25px;
+}
+
 
 
 #bangalore-tile, #coorg-tile, #mysore-tile, #shivanasamudra-tile,
@@ -276,6 +282,7 @@ body {
  .heading {
  	font-size: 3em;
  	padding:30px;
+ 	padding-top: 10px;
  	padding-bottom: 10px;
  	color: #000066 ;
  }
